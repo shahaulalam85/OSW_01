@@ -1,0 +1,60 @@
+img {
+    height: 50px;
+    width: 130px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header input {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+header .bi-search {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+header .btn {
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.common {
+    height: 100px;
+    width: 150px;
+}
+
+.left-card {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.lower {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
