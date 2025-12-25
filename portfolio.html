@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Future CSE Engineer</title>
+    <meta name="description" content="Portfolio of a passionate Computer Science Engineering student.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./portfolio.css">
+</head>
+
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header class="header">
+        <a href="#home" class="logo">Dev<span class="highlight">.</span>Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>John Doe</h1>
+                <h3>And I'm a <span class="text-animate">CSE Student</span></h3>
+                <p>First-year Computer Science & Engineering student passionate about coding, algorithms, and building
+                    modern web solutions. Eager to learn and create technologies that make a difference.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#contact" class="btn">Let's Connect</a>
+            </div>
+            <div class="home-img">
+                <div class="glowing-circle">
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="https://ui-avatars.com/api/?name=John+Doe&background=0ef&color=fff&size=512"
+                            alt="Profile">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="heading">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://ui-avatars.com/api/?name=John+Doe&background=random&color=fff&size=512"
+                        alt="About">
+                </div>
+                <div class="about-text">
+                    <h3>Aspiring Software Engineer</h3>
+                    <p>I am currently pursuing my B.Tech in Computer Science and Engineering. My journey in tech has
+                        just begun, and I am exploring various domains like Web Development, Data Structures, and
+                        Algorithms. I love solving problems and turning ideas into reality through code.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-box">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and structural design.</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design, Flexbox, Grid, Animations.</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, ES6+ features, Logic.</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Basic syntax, scripting, and problem solving.</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-solid fa-c"></i>
+                    <h3>C Programming</h3>
+                    <p>Foundational concepts, pointers, memory management.</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <p>Version control and collaboration.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="heading">Latest <span class="highlight">Projects</span></h2>
+            <div class="projects-container">
+                <div class="project-box">
+                    <img src="https://placehold.co/600x400/121212/0ef/png?text=Portfolio+Site" alt="Project 1">
+                    <div class="project-layer">
+                        <h4>Personal Portfolio</h4>
+                        <p>A responsive personal portfolio website built with HTML, CSS, and JS.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="https://placehold.co/600x400/121212/0ef/png?text=Calculator+App" alt="Project 2">
+                    <div class="project-layer">
+                        <h4>Calculator App</h4>
+                        <p>A simple functional calculator/utility app designed to learn JS logic.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Placeholder for more -->
+                <div class="project-box">
+                    <img src="https://placehold.co/600x400/121212/0ef/png?text=Coming+Soon" alt="Project 3">
+                    <div class="project-layer">
+                        <h4>More to Come</h4>
+                        <p>Currently working on learning new techs and building cool stuff.</p>
+                        <a href="#"><i class="fa-solid fa-lock"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span class="highlight">Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by John Doe | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="./portfolio.js"></script>
+</body>
+
+</html>
